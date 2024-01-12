@@ -27,7 +27,7 @@ const FooterFive = () => {
               <div className="footer-widget-info bp-footer-widget-color text-center">
                 <h2 className="tp-footer-title text-white pb-15">{title}</h2>
                 <p>{sm_text}</p>
-                <a className="tp-btn-sky mb-50" href="/contact">{btn_text}</a>
+                <Link className="tp-btn-sky mb-50" href="/contact">{btn_text}</Link>
                 <p className="right-receved">{copy_right}</p>
               </div>
             </div>
